@@ -6,4 +6,4 @@ Master AngularJS and the Javascript concepts behind it, design custom directives
 ## Course Link [https://www.udemy.com/course/learn-angularjs/](https://www.udemy.com/course/learn-angularjs/)
 
 ### Project description
-This specific project in the course has a homepage where you can type in a city, and click a button. When you click the button, it brings you to a forecast page that shows the weather forecast for that city.
+This specific project in the course has a homepage where you can type in a city, and click a button. When you click the button, it brings you to a weather page that shows the current weather for that city. This project was modified in functionality a bit from the one done in the course, as the api has changed over the years.
