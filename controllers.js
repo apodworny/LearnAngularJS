@@ -1,6 +1,10 @@
-weatherApp.controller('homeController', ['$scope', 'cityService', function($scope, cityService) {
+weatherApp.controller('homeController', ['$scope', '$location', 'cityService', function($scope, $location, cityService) {
     // Sets the city to the default
     $scope.city = cityService.city;
+
+    $scope.submit = function() {
+        $location.path("/currentWeather");
+    }
 
     // When the city property is changed, update the service, which can be used in other pages
     $scope.$watch('city', function() {
